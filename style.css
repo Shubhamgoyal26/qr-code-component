@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/*
+CSS RESET
+*/
+
+/*
+1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+box-sizing: border-box;
+}
+/*
+2. Remove default margin
+*/
+* {
+margin: 0;
+}
+/*
+3. Allow percentage-based heights in the application
+*/
+html, body {
+height: 100%;
+}
+/*
+6. Improve media defaults
+*/
+img, picture, video, canvas, svg {
+display: block;
+max-width: 100%;
+}
+
+/*
+Basic Styling
+*/
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+}
+
+h2{
+    font-weight: bold;
+    font-size: 22px;
+    color: hsl(218, 44%, 22%);
+}
+
+p{
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
+
+/*
+Design Styling
+*/
+article{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px px 16px, rgba(17, 17, 26, 0.05) 0px 2px 32px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+h2, p{
+    text-align: center;
+    margin: 20px 0;
+}
