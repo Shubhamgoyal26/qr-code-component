@@ -38,7 +38,7 @@ body{
     background-color: hsl(212, 45%, 89%);
 }
 
-h2{
+h1{
     font-weight: bold;
     font-size: 22px;
     color: hsl(218, 44%, 22%);
@@ -68,7 +68,7 @@ img{
     border-radius: 10px;
 }
 
-h2, p{
+h1, p{
     text-align: center;
     margin: 20px 0;
 }
